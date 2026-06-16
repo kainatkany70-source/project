@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kainat Javed | Professional Web Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        .timeline-line {
+            border-left: 3px solid #2563eb;
+        }
+
+        .timeline-dot::before {
+            content: '';
+            position: absolute;
+            left: -22px;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #2563eb;
+        }
+    </style>
+</head>
+
+<body class="bg-slate-50 text-slate-800 antialiased font-sans">
+
+    <nav class="sticky top-0 z-50 bg-slate-900 text-white shadow-lg">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <a href="#" class="text-xl font-bold tracking-wider text-blue-400">KAINAT JAVED</a>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-6">
+                        <a href="#about" class="hover:text-blue-400 px-3 py-2 text-sm font-medium transition">About</a>
+                        <a href="#education"
+                            class="hover:text-blue-400 px-3 py-2 text-sm font-medium transition">Education</a>
+                        <a href="#skills"
+                            class="hover:text-blue-400 px-3 py-2 text-sm font-medium transition">Skills</a>
+                        <a href="#portfolio"
+                            class="hover:text-blue-400 px-3 py-2 text-sm font-medium transition">Projects</a>
+                        <a href="#services"
+                            class="hover:text-blue-400 px-3 py-2 text-sm font-medium transition">Services</a>
+                        <a href="#contact"
+                            class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-lg text-sm font-medium transition shadow-md">Contact
+                            Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header
+        class="bg-gradient-to-r from-slate-900 via-indigo-950 to-slate-900 text-white py-28 px-4 text-center md:text-left">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-12 gap-8 items-center">
+            <div class="md:col-span-12" data-aos="fade-right" data-aos-duration="1000">
+                <span
+                    class="inline-block bg-blue-500/10 text-blue-400 border border-blue-500/20 text-xs px-3 py-1 rounded-full font-semibold mb-4">
+                    Open for Freelance Contracts & Web Projects
+                </span>
+                <h1 class="text-4xl md:text-6xl font-black mb-4 tracking-tight">
+                    Hi, I'm <span class="text-blue-400">Kainat Javed</span>
+                </h1>
+                <p class="text-lg md:text-xl text-slate-300 max-w-3xl mb-8 leading-relaxed">
+                    A dedicated BS IT student and Full-Stack Web Developer. I specialize in building clean frontend
+                    interfaces and secure backend web systems using HTML, CSS, JavaScript, PHP, and MySQL.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start gap-4">
+                    <a href="#portfolio"
+                        class="bg-blue-600 text-white px-6 py-3.5 rounded-lg font-medium shadow-lg shadow-blue-600/20 hover:bg-blue-700 transition duration-300 text-center">View
+                        My Projects</a>
+                    <a href="#contact"
+                        class="border border-slate-700 text-slate-300 bg-slate-800/40 px-6 py-3.5 rounded-lg font-medium hover:bg-slate-800 hover:text-white transition duration-300 text-center">Get
+                        In Touch</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 px-4 max-w-4xl mx-auto" data-aos="fade-up" data-aos-duration="1000">
+        <div class="text-center md:text-left">
+            <h2 class="text-2xl font-bold text-slate-900 border-b-4 border-blue-600 w-16 pb-1 mb-6">About Me</h2>
+            <p class="text-base text-slate-600 leading-relaxed text-justify">
+                A motivated and dedicated BS IT student seeking an opportunity to apply my web development and computer
+                skills in a professional environment. I aim to contribute effectively to organizational goals while
+                gaining practical experience and enhancing my technical abilities. I focus on writing clean code and
+                developing responsive, functional web applications.
+            </p>
+        </div>
+    </section>
+
+    <section id="education" class="py-20 px-4 max-w-4xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-100">
+        <h2 class="text-2xl font-bold text-slate-900 border-b-4 border-blue-600 w-16 pb-1 mb-10" data-aos="fade-up">
+            Education</h2>
+        <div class="timeline-line pl-6 ml-3 space-y-10" data-aos="fade-up">
+
+            <div class="relative timeline-dot">
+                <h3 class="text-lg font-bold text-slate-900">BS Information Technology</h3>
+                <span class="text-xs text-blue-600 font-semibold block my-1">Govt College University, Faisalabad | 2022
+                    — 2026</span>
+                <p class="text-sm text-slate-500 mt-1">Focusing on database management, web engineering principles,
+                    software logic, and computer network models.</p>
+            </div>
+
+            <div class="relative timeline-dot">
+                <h3 class="text-lg font-bold text-slate-900">Intermediate (ICS)</h3>
+                <span class="text-xs text-blue-600 font-semibold block my-1">Govt College for Women, Khanewal |
+                    2022</span>
+                <p class="text-sm text-slate-500 mt-1">Studied foundations of Computer Science, Mathematics, and
+                    Physics.</p>
+            </div>
+
+            <div class="relative timeline-dot">
+                <h3 class="text-lg font-bold text-slate-900">Matriculation (Science)</h3>
+                <span class="text-xs text-blue-600 font-semibold block my-1">Govt Girls H.S.S Shamkot | 2020</span>
+                <p class="text-sm text-slate-500 mt-1">Completed secondary school education with science subjects and
+                    computer basics.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 px-4 max-w-4xl mx-auto">
+        <h2 class="text-2xl font-bold text-slate-900 border-b-4 border-blue-600 w-16 pb-1 mb-10" data-aos="fade-up">
+            Technical Stack</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100" data-aos="fade-right">
+                <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4"><i
+                        class="fa fa-code text-blue-600 mr-2"></i> Web Development</h4>
+                <div class="flex flex-wrap gap-2.5">
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">HTML</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">CSS</span>
+                    <span
+                        class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">JavaScript</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">PHP
+                        (Backend)</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">MySQL
+                        (Database)</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100" data-aos="fade-left">
+                <h4 class="text-sm font-bold text-slate-400 uppercase tracking-wider mb-4"><i
+                        class="fa fa-screwdriver-wrench text-blue-600 mr-2"></i> Tools & Office Skills</h4>
+                <div class="flex flex-wrap gap-2.5">
+                    <span class="bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-2 rounded-lg">Visual Studio
+                        Code</span>
+                    <span class="bg-blue-50 text-blue-700 text-xs font-semibold px-3 py-2 rounded-lg">XAMPP</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">MS Office
+                        (Word, Excel, PowerPoint)</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">File
+                        Management</span>
+                    <span class="bg-slate-100 text-slate-800 text-xs font-semibold px-3 py-2 rounded-lg">Internet
+                        Browsing & Email Handling</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-20 px-4 bg-slate-900 text-white rounded-t-3xl">
+        <div class="max-w-5xl mx-auto">
+            <h2 class="text-2xl font-bold border-b-4 border-blue-500 w-16 pb-1 mb-2" data-aos="fade-up">Featured Web
+                Application</h2>
+            <p class="text-slate-400 text-sm mb-10 auto" data-aos="fade-up">A comprehensive Full-Stack Hotel Management
+                & Booking System built from scratch.</p>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-slate-800/60 rounded-xl border border-slate-800 overflow-hidden hover:border-blue-500/50 transition duration-300 flex flex-col justify-between shadow-lg group"
+                    data-aos="fade-up">
+                    <div>
+                        <div class="w-full h-44 bg-slate-950 overflow-hidden relative">
+                            <img src="images/booking.avif" alt="Hotel Room Booking Interface"
+                                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90"
+                                onerror="this.src='https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=600&q=80'">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80">
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="font-bold text-base mb-2 text-blue-400">Online Room Booking Portal</h5>
+                            <p class="text-xs text-slate-300 mb-4 leading-relaxed">
+                                Responsive user-facing interface featuring custom dynamic input fields for check-in
+                                dates, guest selectors, and real-time room pricing arrays.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <div class="flex gap-1.5 flex-wrap">
+                            <span
+                                class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">HTML5</span>
+                            <span
+                                class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">Tailwind
+                                CSS</span>
+                            <span
+                                class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-xl border border-slate-800 overflow-hidden hover:border-blue-500/50 transition duration-300 flex flex-col justify-between shadow-lg group"
+                    data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="w-full h-44 bg-slate-950 overflow-hidden relative">
+                            <img src="images/login.avif" alt="Secure Admin Authentication Login"
+                                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90"
+                                onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=600&q=80'">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80">
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="font-bold text-base mb-2 text-yellow-400">Secure Admin Authentication</h5>
+                            <p class="text-xs text-slate-300 mb-4 leading-relaxed">
+                                Gateway login panel configured with session verification architectures to safely handle
+                                system coordinator privileges and dashboard protection.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <div class="flex gap-1.5 flex-wrap">
+                            <span class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">PHP
+                                Backend</span>
+                            <span
+                                class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">Session
+                                Auth</span>
+                            <span
+                                class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-800/60 rounded-xl border border-slate-800 overflow-hidden hover:border-blue-500/50 transition duration-300 flex flex-col justify-between shadow-lg group"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <div>
+                        <div class="w-full h-44 bg-slate-950 overflow-hidden relative">
+                            <img src="images/dash.avif" alt="Hotel Management Metrics Dashboard"
+                                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 opacity-90"
+                                onerror="this.src='https://images.unsplash.com/photo-1544383835-bda2bc66a55d?auto=format&fit=crop&w=600&q=80'">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80">
+                            </div>
+                        </div>
+                        <div class="p-5">
+                            <h5 class="font-bold text-base mb-2 text-emerald-400">Central Control Dashboard</h5>
+                            <p class="text-xs text-slate-300 mb-4 leading-relaxed">
+                                Dynamic dashboard utilizing statistical status blocks to instantly process total
+                                bookings, available inventory rooms, active check-ins, and client billing logs.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="p-5 pt-0">
+                        <div class="flex gap-1.5 flex-wrap">
+                            <span class="bg-blue-600 text-white text-[10px] px-2 py-0.5 rounded font-medium">Relational
+                                SQL</span>
+                            <span class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">PHP
+                                Core</span>
+                            <span class="bg-slate-700/60 text-slate-200 text-[10px] px-2 py-0.5 rounded font-medium">UI
+                                Dash</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 px-4 bg-slate-900 border-t border-slate-800 text-white pb-24">
+        <div class="max-w-4xl mx-auto">
+            <h2 class="text-2xl font-bold border-b-4 border-blue-500 w-16 pb-1 mb-10" data-aos="fade-up">Services</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <div class="bg-slate-800/40 p-6 rounded-xl border border-slate-800 hover:border-blue-500/40 transition"
+                    data-aos="zoom-in">
+                    <i class="fa fa-code text-2xl text-blue-400 mb-4 block"></i>
+                    <h4 class="text-base font-bold mb-2">Frontend Development</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Converting mockups and layouts into clean,
+                        completely responsive webpage modules using structured HTML, CSS, and JavaScript code.</p>
+                </div>
+
+                <div class="bg-slate-800/40 p-6 rounded-xl border border-slate-800 hover:border-emerald-500/40 transition"
+                    data-aos="zoom-in" data-aos-delay="100">
+                    <i class="fa fa-server text-2xl text-emerald-400 mb-4 block"></i>
+                    <h4 class="text-base font-bold mb-2">Backend Application Programming</h4>
+                    <p class="text-slate-400 text-xs leading-relaxed">Developing backends for order systems, data
+                        management portals, user sessions, and database query setups using PHP and MySQL over XAMPP
+                        local networks.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-4 max-w-4xl mx-auto">
+        <h2 class="text-2xl font-bold text-slate-900 border-b-4 border-blue-600 w-16 pb-1 mb-10" data-aos="fade-up">
+            Contact</h2>
+        <div class="grid md:grid-cols-2 gap-8">
+
+            <div class="space-y-4 text-slate-600" data-aos="fade-right">
+                <p class="text-base">Have a project requirements or web task that needs execution? Let's connect.</p>
+                <div class="flex items-center space-x-3 text-sm pt-4">
+                    <i class="fa fa-envelope text-blue-600 text-base w-5"></i>
+                    <span class="font-medium">javedkainat493@gmail.com</span>
+                </div>
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fa fa-phone text-blue-600 text-base w-5"></i>
+                    <span class="font-medium">0317-7831840</span>
+                </div>
+                <div class="flex items-center space-x-3 text-sm">
+                    <i class="fa fa-map-marker-alt text-blue-600 text-base w-5"></i>
+                    <span class="font-medium">Basti Shamkot, Khanewal</span>
+                </div>
+            </div>
+
+            <div class="bg-white p-6 rounded-xl shadow-sm border border-slate-100" data-aos="fade-left">
+                <h4 class="text-sm font-bold uppercase tracking-wider text-slate-400 mb-4">Send Message Direct</h4>
+                <form action="https://api.web3forms.com/submit" method="POST" class="space-y-3 text-sm">
+                    <input type="hidden" name="access_key" value="521aade7-807f-49cf-961b-3276194e83d0">
+
+                    <input type="text" name="name" placeholder="Your Identity Name"
+                        class="w-full px-4 py-2.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-50"
+                        required>
+
+                    <input type="email" name="email" placeholder="Your Email Address"
+                        class="w-full px-4 py-2.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-50"
+                        required>
+
+                    <textarea name="message" placeholder="Your Project Requirements..." rows="4"
+                        class="w-full px-4 py-2.5 border border-slate-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-50"
+                        required></textarea>
+
+                    <input type="hidden" name="redirect" value="https://web3forms.com/success">
+
+                    <button type="submit"
+                        class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2.5 rounded-lg transition shadow-md shadow-blue-600/10">
+                        Transmit Message
+                    </button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-slate-950 text-slate-400 text-center py-6 text-xs border-t border-slate-900">
+        <p>&copy; 2026 Kainat Javed. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: true
+        });
+    </script>
+</body>
+
+</html>
